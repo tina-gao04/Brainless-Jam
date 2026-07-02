@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dyn2rtvvqmxt6" path="res://icon.svg" id="1_xu20i"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6ik3a"]
-size = Vector2(15, 16)
+size = Vector2(383.97482, 16)
 
 [node name="fish" type="CharacterBody2D" unique_id=1078104108 groups=["fish"]]
 script = ExtResource("1_hgn23")
@@ -17,5 +17,5 @@ texture = ExtResource("1_xu20i")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=797555408]
 position = Vector2(-2, -2)
-scale = Vector2(0.42659193, 0.38541055)
+scale = Vector2(0.016932467, 0.37123376)
 shape = SubResource("RectangleShape2D_6ik3a")
