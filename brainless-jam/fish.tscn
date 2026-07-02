@@ -1,19 +1,21 @@
-[gd_scene format=3 uid="uid://b5r8t5jx7cswi"]
+[gd_scene format=3 uid="uid://63kgg87f6x1t"]
 
 [ext_resource type="Script" uid="uid://dfc2hd4x5ljd3" path="res://fish.gd" id="1_hgn23"]
 [ext_resource type="Texture2D" uid="uid://dyn2rtvvqmxt6" path="res://icon.svg" id="1_xu20i"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_tws1o"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6ik3a"]
+size = Vector2(15, 16)
 
-[node name="Node2D" type="Node2D" unique_id=1675317220]
-
-[node name="fish" type="CharacterBody2D" parent="." unique_id=1140176411]
+[node name="fish" type="CharacterBody2D" unique_id=1078104108 groups=["fish"]]
 script = ExtResource("1_hgn23")
 
-[node name="Sprite2D" type="Sprite2D" parent="fish" unique_id=380591917]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2097379265]
 modulate = Color(0, 0, 0, 1)
-scale = Vector2(-0.15532061, -0.1563411)
+position = Vector2(-2, -2)
+scale = Vector2(-0.05045708, -0.046390153)
 texture = ExtResource("1_xu20i")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="fish" unique_id=1806238971]
-shape = SubResource("CircleShape2D_tws1o")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=797555408]
+position = Vector2(-2, -2)
+scale = Vector2(0.42659193, 0.38541055)
+shape = SubResource("RectangleShape2D_6ik3a")
