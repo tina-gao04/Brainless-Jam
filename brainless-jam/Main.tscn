@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://cgej6ktjchrao" path="res://FishSpawner.gd" id="3_r0du0"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tws1o"]
-size = Vector2(36, 1195.7474)
+size = Vector2(36, 1725.9749)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_coo17"]
 size = Vector2(12, 20)
@@ -23,7 +23,7 @@ position = Vector2(-1, 345.25)
 shape = SubResource("RectangleShape2D_tws1o")
 
 [node name="CollisionShape2D6" type="CollisionShape2D" parent="StaticBody2D" unique_id=694014301]
-position = Vector2(579, -3.0517578e-05)
+position = Vector2(835.865, -0.043829333)
 rotation = -1.5709668
 scale = Vector2(1.0795563, 0.9688861)
 shape = SubResource("RectangleShape2D_tws1o")
