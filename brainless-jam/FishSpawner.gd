@@ -1,7 +1,7 @@
 extends Node2D
 
 @export var fish_scene: PackedScene
-@export var fish_count = 200
+@export var fish_count = 150
 
 func _ready():
 	var screen_center = get_viewport().get_visible_rect().size / 2

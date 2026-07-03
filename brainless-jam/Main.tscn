@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://b5r8t5jx7cswi"]
 
 [ext_resource type="PackedScene" uid="uid://63kgg87f6x1t" path="res://fish.tscn" id="1_uu6xs"]
+[ext_resource type="PackedScene" uid="uid://bw14iu1r3otmb" path="res://hazard.tscn" id="3_cm0pq"]
 [ext_resource type="Script" uid="uid://cgej6ktjchrao" path="res://FishSpawner.gd" id="3_r0du0"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tws1o"]
@@ -40,3 +41,6 @@ position = Vector2(1298, 72)
 rotation = 3.1415927
 scale = Vector2(3.3341496, -65.80703)
 shape = SubResource("RectangleShape2D_coo17")
+
+[node name="hazard" parent="." unique_id=1399191782 instance=ExtResource("3_cm0pq")]
+position = Vector2(216, 152)
